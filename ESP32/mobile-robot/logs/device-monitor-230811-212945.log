@@ -1,0 +1,6477 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x800988ef  A13     : 0x3ffd1f80  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060f35  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060f23  
+A6      : 0x00060f23  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060f23  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x80084049  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x4010482c  A11     : 0x3ffdfc9c  A12     : 0x3ffd2090  A13     : 0x3ffd2070  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060c35  A0      : 0x80094f43  A1      : 0x3ffd1f20  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060c23  
+A6      : 0x00060c23  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000002  A11     : 0x00000001  A12     : 0x000000ff  A13     : 0x000000ff  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffd1f20 0x40094f40:0x3ffd1f60 0x40093ba8:0x3ffd1f80 0x40106232:0x3ffd1fc0 0x401060f8:0x3ffd1fe0 0x400f2b4f:0x3ffd2010 0x40109969:0x3ffd2030 0x4010652d:0x3ffd2050 0x400e9739:0x3ffd2070 0x40104855:0x3ffd20d0 0x40105dcf:0x3ffd20f0
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb6558  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060f35  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060f23  
+A6      : 0x00060f23  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060f23  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x80084049  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x800988ef  A13     : 0x3ffd1f80  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb6558  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x3ffbb7e4  A11     : 0x00000000  A12     : 0x3ffd2010  A13     : 0x3ffd1fe0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x3ffd20f0  A13     : 0x3ffd20d0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb6510  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060a20  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060f35  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060f23  
+A6      : 0x00060f23  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060f23  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x800988ef  A13     : 0x3ffd1f80  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060335  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060323  
+A6      : 0x00060323  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060323  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000015  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094ae3  A1      : 0x3ffbeafc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060021  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x3ffc42cc  A13     : 0xbaad5678  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000015  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeafc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060c23  A11     : 0x00000000  A12     : 0x00000001  A13     : 0x00000000  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060f35  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060f23  
+A6      : 0x00060f23  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060f23  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060f35  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060f23  
+A6      : 0x00060f23  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060f23  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x007b656c  A11     : 0x003fffff  A12     : 0x3ffd2030  A13     : 0x3ffd2010  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000015  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060f35  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060f23  
+A6      : 0x00060f23  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060f23  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000015  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb6534  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060835  A0      : 0x80094f43  A1      : 0x3ffd1f20  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060823  
+A6      : 0x00060823  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000002  A11     : 0x00000001  A12     : 0x000000ff  A13     : 0x000000ff  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffd1f20 0x40094f40:0x3ffd1f60 0x40093ba8:0x3ffd1f80 0x40106232:0x3ffd1fc0 0x401060f8:0x3ffd1fe0 0x400f2b4f:0x3ffd2010 0x40109969:0x3ffd2030 0x4010652d:0x3ffd2050 0x400e9739:0x3ffd2070 0x40104855:0x3ffd20d0 0x40105dcf:0x3ffd20f0
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060f35  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060f23  
+A6      : 0x00060f23  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060f23  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb6510  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x800988ef  A13     : 0x3ffd1f80  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000015  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x80084049  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060f35  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060f23  
+A6      : 0x00060f23  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060f23  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060f35  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060f23  
+A6      : 0x00060f23  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060f23  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000001  A11     : 0x3ffcffa0  A12     : 0x3ffd2030  A13     : 0x3ffd2010  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000015  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060335  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060323  
+A6      : 0x00060323  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060323  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb6558  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb6558  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060a20  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060f35  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060f23  
+A6      : 0x00060f23  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060f23  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb6534  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x3ffd20f0  A13     : 0x3ffd20d0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060c35  A0      : 0x80094f43  A1      : 0x3ffd1f20  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060c23  
+A6      : 0x00060c23  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000002  A11     : 0x00000001  A12     : 0x000000ff  A13     : 0x000000ff  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001e  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffd1f20 0x40094f40:0x3ffd1f60 0x40093ba8:0x3ffd1f80 0x40106232:0x3ffd1fc0 0x401060f8:0x3ffd1fe0 0x400f2b4f:0x3ffd2010 0x40109969:0x3ffd2030 0x4010652d:0x3ffd2050 0x400e9739:0x3ffd2070 0x40104855:0x3ffd20d0 0x40105dcf:0x3ffd20f0
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb6558  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x800988ef  A13     : 0x3ffd1f80  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb6534  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060a35  A0      : 0x80094f43  A1      : 0x3ffd1f20  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060a23  
+A6      : 0x00060a23  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000002  A11     : 0x00000001  A12     : 0x000000ff  A13     : 0x000000ff  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffd1f20 0x40094f40:0x3ffd1f60 0x40093ba8:0x3ffd1f80 0x40106232:0x3ffd1fc0 0x401060f8:0x3ffd1fe0 0x400f2b4f:0x3ffd2010 0x40109969:0x3ffd2030 0x4010652d:0x3ffd2050 0x400e9739:0x3ffd2070 0x40104855:0x3ffd20d0 0x40105dcf:0x3ffd20f0
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000015  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060f35  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060f23  
+A6      : 0x00060f23  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060f23  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x80084049  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb6534  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00ff0000  A11     : 0xff000000  A12     : 0x3ffd2030  A13     : 0x3ffd2010  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x800988ef  A13     : 0x3ffd1f80  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb6510  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb6558  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000005  A11     : 0x00000004  A12     : 0x3ffd2120  A13     : 0x3ffd20f0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060e20  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd1f50  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060a35  A0      : 0x80094f43  A1      : 0x3ffd1f20  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060a23  
+A6      : 0x00060a23  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000002  A11     : 0x00000001  A12     : 0x000000ff  A13     : 0x000000ff  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffd1f20 0x40094f40:0x3ffd1f60 0x40093ba8:0x3ffd1f80 0x40106232:0x3ffd1fc0 0x401060f8:0x3ffd1fe0 0x400f2b4f:0x3ffd2010 0x40109969:0x3ffd2030 0x4010652d:0x3ffd2050 0x400e9739:0x3ffd2070 0x40104855:0x3ffd20d0 0x40105dcf:0x3ffd20f0
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x007b656c  A11     : 0x003fffff  A12     : 0x3ffd2030  A13     : 0x3ffd2010  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060a20  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060a20  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000015  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060f35  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060f23  
+A6      : 0x00060f23  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060f23  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb6510  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x3ffd1fc0  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x80084049  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f2  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960ef:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x4010482c  A11     : 0x3ffde828  A12     : 0x3ffd2050  A13     : 0x3ffd2030  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060820  A11     : 0x00000001  A12     : 0x8009642c  A13     : 0x3ffd2020  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00000000  A11     : 0x3ffb657c  A12     : 0x80084049  A13     : 0x3ffd1fa0  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000008  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x4009084d  LEND    : 0x4009086f  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x400960f6  PS      : 0x00060135  A0      : 0x80094eba  A1      : 0x3ffbf10c  
+A2      : 0x3ffbda1c  A3      : 0x3ffbce24  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbce24  A9      : 0x00000019  
+A10     : 0x3ffbce24  A11     : 0x00000019  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0x00000000  
+Core  1 was running in ISR context:
+EPC1    : 0x400e4397  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x400960f3:0x3ffbf10c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x4009628f  PS      : 0x00060035  A0      : 0x80094f43  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3d8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x00060e23  A11     : 0x00000000  A12     : 0x00000001  A13     : 0x00000000  
+A14     : 0x007bf3d8  A15     : 0x003fffff  SAR     : 0x0000001f  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400907e4  LEND    : 0x400907fa  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4009628c:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 7b8288bc42093093
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful

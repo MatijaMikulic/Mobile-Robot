@@ -1,0 +1,1744 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+E (481) esp_core_dump_flash: Core dum�␀"�х�check failed:
+Calculated checksum='03e6630d'
+Image checksum='ffffffff'
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d4f0f  PS      : 0x00060a30  A0      : 0x800d52df  A1      : 0x3ffc9d80  
+A2      : 0x00000000  A3      : 0x00000068  A4      : 0x00000002  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x800d7bfc  A9      : 0x3ffc9d70  
+A10     : 0x3ffbdbf4  A11     : 0x3f40579d  A12     : 0x00000002  A13     : 0xffffffff  
+A14     : 0x3ffbdae0  A15     : 0x00000000  SAR     : 0x00000001  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000040  LBEG    : 0x40090f8d  LEND    : 0x40090f9d  LCOUNT  : 0xfffffff9  
+
+
+Backtrace: 0x400d4f0c:0x3ffc9d80 0x400d52dc:0x3ffc9db0 0x400d3a40:0x3ffc9dd0 0x400d3aa7:0x3ffc9df0 0x400d47cb:0x3ffc9e10 0x400d9fd6:0x3ffc9e60
+
+
+
+
+ELF file SHA256: a31b1f64bb6c829c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed

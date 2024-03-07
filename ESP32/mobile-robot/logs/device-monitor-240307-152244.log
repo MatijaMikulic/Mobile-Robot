@@ -1,0 +1,44 @@
+......>......&w90;
+&d90;
+&a90;
+&sBACKWARD;
+[204277][E][BluetoothSerial.cpp:201] _spp_send_buffer(): SPP Write Congested!
+[205278][E][BluetoothSerial.cpp:201] _spp_send_buffer(): SPP Write Congested!
+[206278][E][BluetoothSerial.cpp:201] _spp_send_buffer(): SPP Write Congested!
+[207279][E][BluetoothSerial.cpp:201] _spp_send_buffer(): SPP Write Congested!
+[208279][E][BluetoothSerial.cpp:201] _spp_send_buffer(): SPP Write Congested!
+Guru Meditation Error: Core  1 panic'ed (Interrupt wdt timeout on CPU1). 
+
+Core  1 register dump:
+PC      : 0x40096256  PS      : 0x00060135  A0      : 0x8009501e  A1      : 0x3ffbf21c  
+A2      : 0x3ffbbb04  A3      : 0x3ffbd60c  A4      : 0x00000004  A5      : 0x00060123  
+A6      : 0x00060123  A7      : 0x00000001  A8      : 0x3ffbd60c  A9      : 0x00000018  
+A10     : 0x3ffbd60c  A11     : 0x00000018  A12     : 0x00000004  A13     : 0x00060123  
+A14     : 0x007bf3b8  A15     : 0x003fffff  SAR     : 0x00000010  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400909b1  LEND    : 0x400909d3  LCOUNT  : 0xffffffff  
+Core  1 was running in ISR context:
+EPC1    : 0x400e5607  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+
+
+Backtrace: 0x40096253:0x3ffbf21c |<-CORRUPTED
+
+
+Core  0 register dump:
+PC      : 0x400963f3  PS      : 0x00060035  A0      : 0x80094c47  A1      : 0x3ffbeadc  
+A2      : 0x3ffbf3b8  A3      : 0xb33fffff  A4      : 0x0000abab  A5      : 0x00060023  
+A6      : 0x00060021  A7      : 0x0000cdcd  A8      : 0x0000abab  A9      : 0xffffffff  
+A10     : 0x3ffc4534  A11     : 0x00000000  A12     : 0x3ffc4530  A13     : 0x00000007  
+A14     : 0x007bf3b8  A15     : 0x003fffff  SAR     : 0x0000001d  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x00000000  LEND    : 0x00000000  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x400963f0:0x3ffbeadc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 54ca15f71935d117
+
+Rebooting...
+Success
+>......>......

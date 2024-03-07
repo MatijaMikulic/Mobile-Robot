@@ -1,0 +1,5 @@
+E (461) esp_core_dump_flash: Core dum�␀D�х�check failed:
+Calculated checksum='165886c2'
+Image checksum='ffffffff'
+E (1640) timer_group: timer_isr_callback_add(236): register interrupt service failed
+[ 16041][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263

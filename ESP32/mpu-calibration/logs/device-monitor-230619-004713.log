@@ -1,0 +1,680 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2927,     156,    1333,      51,     -95,       9
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2925,     156,    1333,      52,     -94,       9
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2927,     156,    1335,      51,     -95,       9
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2925,     156,    1335,      51,     -95,       9
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2925,     156,    1333,      51,     -94,       8
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060a30  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2925,     154,    1335,      51,     -95,       9
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2927,     154,    1335,      52,     -95,       8
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2925,     156,    1335,      51,     -95,       9
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2927,     156,    1335,      51,     -95,       9
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2925,     156,    1335,      52,     -95,       8
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000026  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2925,     156,    1335,      51,     -94,       9
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2925,     156,    1335,      52,     -95,       9
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2925,     156,    1335,      52,     -95,       9
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2925,     154,    1335,      51,     -95,       8
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2927,     156,    1335,      52,     -94,       9
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2925,     154,    1333,      51,     -95,       9
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2925,     154,    1335,      51,     -95,       8
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>..........
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS    -2925,     156,    1335,      51,     -95,       9
+
+//           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
+//OFFSETS   Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400d16a9  PS      : 0x00060830  A0      : 0x800d4a71  A1      : 0x3ffb2260  
+A2      : 0x3ffc24d4  A3      : 0x3ffc261c  A4      : 0x00000000  A5      : 0x0000000c  
+A6      : 0x0000000a  A7      : 0x80000001  A8      : 0x800d16a3  A9      : 0x3ffb2230  
+A10     : 0x00000000  A11     : 0x3ffbdb68  A12     : 0x3f404883  A13     : 0x3f4001e7  
+A14     : 0x3ffc2898  A15     : 0x3f4006d8  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400844bd  LEND    : 0x400844c5  LCOUNT  : 0x00000026  
+
+
+Backtrace: 0x400d16a6:0x3ffb2260 0x400d4a6e:0x3ffb2290
+
+
+
+
+ELF file SHA256: eaf64b3dbead85b9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection successful
+>..........>.....

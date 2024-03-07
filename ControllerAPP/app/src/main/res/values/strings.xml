@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Remote Controller</string>
+    <string name="textView_connection">Connect/Disconnect to ESP32</string>
+    <string name="button_connect">Connect</string>
+    <string name="button_disconnect">Disconnect</string>
+
+</resources>

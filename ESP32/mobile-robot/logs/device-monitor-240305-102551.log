@@ -1,0 +1,52 @@
+[  2587][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+[  3598][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+[  5612][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+[  6615][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+118.64, 1.15
+[  7626][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+110.83, 1.15
+[  7634][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error -1
+112.72, 1.15
+[  8636][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+93.57, 1.15
+[  9641][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+72.47, 1.15
+[  9648][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error -1
+74.08, 1.15
+[ 10650][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+56.27, 1.15
+[ 11657][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+42.23, 1.15
+[ 12665][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+31.61, 1.15
+[ 12672][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error -1
+32.25, 1.15
+[ 13673][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+24.27, 1.15
+[ 13680][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error -1
+24.82, 1.15
+[ 14683][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+18.92, 1.15
+[ 15686][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+14.70, 1.15
+[ 16693][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+11.72, 1.15
+[ 16703][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error -1
+11.95, 1.15
+[ 17706][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+9.78, 1.15
+[ 17715][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error -1
+9.94, 1.15
+[ 18718][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+8.37, 1.15
+[ 19727][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+7.26, 1.15
+[ 19735][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error -1
+7.32, 1.15
+[ 19738][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error -1
+7.36, 1.15
+[ 20751][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+6.55, 1.15
+[ 20758][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error -1
+6.61, 1.15
+[ 20762][E][Wire.cpp:499] requestFrom(): i2cWriteRea

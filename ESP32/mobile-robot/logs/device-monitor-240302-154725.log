@@ -1,0 +1,7 @@
+[   573][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error -1
+MPU connection failed. Please check your connection with `connection_check` example.
+MPU connection failed. Please check your connection with `connection_check` example.
+MPU connection failed. Please check your connection with `connection_check` example.
+MPU connection failed. Please check your connection with `connection_check` example.
+MPU connection failed. Please check your connection with `connection_check` example.
+MPU connection failed. Please check your connection with `connection_check` example.

@@ -1,0 +1,7 @@
+Success
+>......>......&d;
+right
+[ 94814][E][BluetoothSerial.cpp:201] _spp_send_buffer(): SPP Write Congested!
+[ 95815][E][BluetoothSerial.cpp:201] _spp_send_buffer(): SPP Write Congested!
+[ 96815][E][BluetoothSerial.cpp:201] _spp_send_buffer(): SPP Write Congested!
+[ 97815][E][BluetoothSerial.cpp:201] _spp_send_buffer(): SPP Write Congested!
