@@ -42,6 +42,8 @@ const uint8_t discHoles = 20;
 const float wheelRadius = 32.5f; //31
 //Complementary filter
 const float alpha = 0.98f;
+
+const float factor = 0.91f;
 /*################### <\GLOBAL CONSTANTS> ####################*/
 #pragma endregion
 
@@ -150,8 +152,8 @@ void setup() {
   /* Setting up MPU 6050 sensor */
   setupMPU6050();
   setOffsetsMPU6050();
-  mpu6050_1.CalibrateAccel(6);
-  mpu6050_1.CalibrateGyro(6);
+  //mpu6050_1.CalibrateAccel(6);
+  //mpu6050_1.CalibrateGyro(6);
 
   /* Setting bluetooth serial */
   SerialBT.begin("ESP32test");
@@ -190,6 +192,7 @@ void loop() {
     digitalWrite(in4, LOW);
     
     // stop the robot if robot has travelled desired distance
+    
     if(targetDistance > 0 && distance >=targetDistance && currentCommand.type == CommandType::FORWARD){
       stop();
       control_needed = false;
@@ -424,30 +427,6 @@ void ExecuteManualCommand(const char* command){
     stop();
     Serial.println("stop");
   }
-  else if(strcmp(command,"&p;")==0){
-    AMotorSpeed = 150;
-    BMotorSpeed = 150;
-    targetAngle = heading - 85;
-    if (targetAngle <= -180) {
-        targetAngle += 360;
-    }
-    else if (targetAngle > 180) {
-        targetAngle -= 360;
-    }
-    activateRotateController=true;
-  }
-  else if(strcmp(command,"&l;")==0){
-    AMotorSpeed = 150;
-    BMotorSpeed = 150;
-    targetAngle = heading + 85;
-    if (targetAngle <= -180) {
-        targetAngle += 360;
-    }
-    else if (targetAngle > 180) {
-        targetAngle -= 360;
-    }
-    activateRotateController=true;
-  }
 }
 
 /**
@@ -503,14 +482,17 @@ Command parseCommand(const char* commandString){
           command.type=CommandType::BACKWARD;
           command.distance=value;
           command.angle = -1;
+          break;
         case 'a':
           command.type=CommandType::LEFT;
           command.angle=value;
           command.distance=-1;
+          break;
         case 'd':
           command.type=CommandType::RIGHT;
           command.angle=value;
           command.distance=-1;   
+          break;
         default:
           break;
         }
@@ -554,7 +536,7 @@ void execute(){
   case CommandType::LEFT:
     AMotorSpeed = 150;
     BMotorSpeed = 150;
-    targetAngle = heading + currentCommand.angle;
+    targetAngle = heading + currentCommand.angle * factor;
     if (targetAngle <= -180) {
         targetAngle += 360;
     }
@@ -564,11 +546,12 @@ void execute(){
     integral = 0.0f;
     previousError = 0;
     activateRotateController=true;
+    break;
 
   case CommandType::RIGHT:
     AMotorSpeed = 150;
     BMotorSpeed = 150;
-    targetAngle = heading - currentCommand.angle;
+    targetAngle = heading - currentCommand.angle * factor;
     if (targetAngle <= -180) {
         targetAngle += 360;
     }
@@ -578,6 +561,7 @@ void execute(){
     integral = 0.0f;
     previousError = 0;
     activateRotateController=true;
+    break;
   default:
     break;
   }
@@ -606,7 +590,6 @@ int changeSpeed (int motorSpeed, int increment){
  * @brief Control the robot to move in a straight line.
  */
 void controlStraightLine(){
-
   if (abs(targetAngle - heading) < 3){
     // Indicates that the robot has been aligned for a long enough duration
     if (countStraight < 10){
@@ -638,7 +621,7 @@ void controlStraightLine(){
   } 
   // For smaller delta angles, we need smaller rotation speed
   else {
-    targetGyroX = 1 * deltaAngle;
+    targetGyroX = 1.5 * deltaAngle;
   }
 
   /* int error = targetGyroX - gyroX_degs;
@@ -646,6 +629,7 @@ void controlStraightLine(){
   float output = kp*error + ki*integral + kd*(error - previousError)/0.02; 
   previousError = error;
   AMotorSpeed = changeSpeed(AMotorSpeed,output); */
+  
   // Motor A is stronger than motor B. Speed of motor B will remain the same. Speed of motor A will be adjusted accordingly.
   // If the targetGyroX is greater than the current reading, the motor speed (AMotorSpeed) is adjusted by calling the 
   // changeSpeed function with a positive increment (+1). This will increase the motor speed to rotate towards the target angle.
@@ -662,7 +646,7 @@ void controlRotate(){
   int deltaAngle = calculateAngleOffset(targetAngle,heading);
   int targetGyroX;
   // Check if the angle difference is small
-  if (abs(deltaAngle) <= 2){
+  if (abs(deltaAngle) <= 5){
     stop();
     // Indicates that the robot has been within the acceptable range for a period of time
     if(countRotate<10){
@@ -688,11 +672,11 @@ void controlRotate(){
     // With targetGyroX we can influence speed of rotation
     // By increasing or decreasing speed we can change speed of rotation
     if (abs(deltaAngle) > 30){
-      targetGyroX = 90;
+      targetGyroX = 70;
     } 
     // For smaller delta angles, we need smaller rotation speed
     else {
-      targetGyroX = 3.5 * abs(deltaAngle);
+      targetGyroX = 2 * abs(deltaAngle);
     }
 
     /* int error = targetGyroX - abs(gyroX_degs);

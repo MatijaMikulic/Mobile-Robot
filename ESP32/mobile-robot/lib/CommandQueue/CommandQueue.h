@@ -17,8 +17,8 @@ enum class CommandState {
 
 typedef struct{
     CommandType type;     // forward (0), backward (1), right (2), left (3)
-    int distance; // in cm, for forward and backward commands
-    int angle;    // in degs, for left and rotate commands
+    int distance;         // in cm, for forward and backward commands
+    int angle;            // in degs, for left and rotate commands
     CommandState state;
 }Command;
 
@@ -57,7 +57,7 @@ class CommandQueue{
                 command.type = CommandType::NONE; 
                 command.distance = -1;
                 command.angle = -1;
-                command.state = CommandState::IDLE;
+                command.state = CommandState::COMPLETED;
             }
             return command;
         }
