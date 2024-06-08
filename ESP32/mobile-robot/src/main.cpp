@@ -243,10 +243,10 @@ void setOffsetsMPU6050(){
 void setupTimer(){
     // 80 MHz frequency for system clock
 
-    // Every 100 ms
+    // Every 50 ms
     Timer0_Cfg = timerBegin(0, 80, true);
     timerAttachInterrupt(Timer0_Cfg, &Timer0_ISR, true);
-    timerAlarmWrite(Timer0_Cfg, 100000, true);
+    timerAlarmWrite(Timer0_Cfg, 50000, true);
     timerAlarmEnable(Timer0_Cfg);
 
     // Every 20 ms
@@ -646,7 +646,7 @@ void controlRotate(){
   int deltaAngle = calculateAngleOffset(targetAngle,heading);
   int targetGyroX;
   // Check if the angle difference is small
-  if (abs(deltaAngle) <= 5){
+  if (abs(deltaAngle) <= 2){
     stop();
     // Indicates that the robot has been within the acceptable range for a period of time
     if(countRotate<10){
